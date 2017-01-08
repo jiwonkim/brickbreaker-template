@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .canvas-container {
+            width: 100%;
+            text-align: center; /* center the canvas */
+        }
+    </style>
+
+    <script src="{{ url_for('static', filename='jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='brickbreaker.js') }}"></script>
+</head>
+<body>
+    <h1>Brick Breaker</h1>
+
+    <div class="canvas-container">
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+</body>
+</html>
